@@ -49,7 +49,7 @@ function my_keydown(e)
 	And id coordinates matches them remove ball image, 
 	display "GAME OVER!!!" 
 	and make canvas border 'red'. */
-	if ((ball_x==holeX)&&(ball_y==hole_y)){
+	if ((ball_x==hole_x)&&(ball_y==hole_y)){
 		canvas.remove(ball_obj);
 	}
 	else{
